@@ -23,3 +23,17 @@ A local repository is the .git files and remote repository can be bitbucket or g
 
 is used to prevent sensitive and importand file from pushing on to repository
 git rm --cached -r .  this command remove everything recursivly from the local repository and is no longer being tracked. 
+
+https://github.com/github/gitignore use pre made template 
+https://github.com/MunGell/awesome-for-beginners  - Code written by others that can be used 
+
+
+git clone - Clone remote repository to your own local working enviroment 
+
+                                Branching 
+
+Create a branch for e.g we want to exprement something and then it can be merged with the main branch or developing new feature 
+
+git branch - folloowed by the branch name to create a branch 
+git branch - without name shows the branch 
+git checkout - followed by the branch name to switch branch 

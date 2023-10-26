@@ -1,8 +1,25 @@
 
-git init - initialise the the git 
-git add  - followed by the file name 
-git status - show the statous 
+                Initialise and setup local repository 
+
+git init - initialise the the git in the working directory 
+git add  - followed by the file name to add it to the staging area 
+git status - show the statous e.g if any file is being tracked or added in the staging area 
 git commit -m - commit and -m specify message which is very important 
 git log - shows the past comitted files
 git diff - followed by file name show the difference
-git checkout - followed by the file name roll back the changes 
+git checkout - followed by the file name to roll back the changes to the last version that was commited in the local respository
+
+
+                Push it to the remote repository 
+
+git remote add origin https://github.com/nalami/story.git
+git branch -M main
+git push -u origin main - send the local commit to remote repository. 
+
+A local repository is the .git files and remote repository can be bitbucket or github. 
+
+
+            git ignore 
+
+is used to prevent sensitive and importand file from pushing on to repository
+git rm --cached -r .  this command remove everything recursivly from the local repository and is no longer being tracked. 
